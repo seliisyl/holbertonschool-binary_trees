@@ -23,7 +23,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	/* liaisaon avec le parent */
 	new_node->left = NULL;
 	/* init du fils left a NULL */
-	new_node->reght = NULL;
+	new_node->right = NULL;
 	/* init du fils right a NULL */
 	return (new_node);
 }
